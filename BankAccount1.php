@@ -2,7 +2,6 @@
 
 $inicial_balance = 400.0;
 $actividadBanco1 = true;
-$overdraftBanco1 = false;
 echo"<h3> Bank Account 1 </h3>";
 echo"My balance : ".number_format($inicial_balance, 1)." <br>";
 
@@ -32,7 +31,6 @@ echo "<br> <br> <br>";
 echo "<h3> Bank Account 2 </h3>";
 $inicial_balance2 = 200.0;
 $actividadBanco2 = true;
-$overdraftBanco2 = true;
 $limitOverdraft = 100;
 echo"My balance : ".number_format($inicial_balance2, 1)." <br>";
 echo"Doing transaction deposit (+100) with current balance ".number_format($inicial_balance2,1)." <br>";
